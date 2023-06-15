@@ -478,6 +478,7 @@
 
         <com.google.android.material.bottomappbar.BottomAppBar
             android:id="@+id/app_bar"
+            android:backgroundTint="@color/white"
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:layout_gravity="bottom"
@@ -510,6 +511,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:textColor="@color/grey"
                         android:text="Home" />
                 </LinearLayout>
 
@@ -533,6 +535,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:textColor="@color/grey"
                         android:text="Wallet" />
                 </LinearLayout>
 
@@ -549,6 +552,7 @@
                         android:layout_height="20dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
+                        android:visibility="gone"
                         app:srcCompat="@drawable/bottom_btn1" />
 
                     <TextView
@@ -557,7 +561,9 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Home" />
+                        android:text="Home"
+                        android:textColor="@color/grey"
+                        android:visibility="invisible" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -580,6 +586,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:textColor="@color/grey"
                         android:text="Profile" />
                 </LinearLayout>
 
@@ -603,6 +610,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
+                        android:textColor="@color/grey"
                         android:text="Settings" />
                 </LinearLayout>
                 
